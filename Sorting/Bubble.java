@@ -1,4 +1,15 @@
 
+/**
+ * FOR I = 0 TO A.LENGTH - 1
+ * SWAPPED = FALSE
+ * 
+ * FOR J=0 TO A.LENGTH - 1 - I
+ * IF (A[J]> A[J+1])
+ * SWAP(A[J], A[J+1])
+ * IF(!SWAPPED)
+ * BREAK
+ */
+
 public class Bubble {
 
     public int[] sort(int array[]) {
