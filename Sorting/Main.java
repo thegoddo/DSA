@@ -17,16 +17,16 @@ public class Main {
         switch (choice) {
             case 1:
                 Bubble b = new Bubble();
-                int[] sortedArray = b.sort(array);
+                b.sort(array);
                 for (int i = 0; i < array.length; i++) {
-                    System.out.print(sortedArray[i] + " ");
+                    System.out.print(array[i] + " ");
                 }
                 break;
             case 2:
                 SelectionSort selectionSort = new SelectionSort();
-                sortedArray = selectionSort.sort(array);
+                selectionSort.sort(array);
                 for (int i = 0; i < array.length; i++) {
-                    System.out.print(sortedArray[i] + " ");
+                    System.out.print(array[i] + " ");
                 }
 
             default:
