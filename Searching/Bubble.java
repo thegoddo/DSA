@@ -20,13 +20,4 @@ public class Bubble {
         return array;
     }
 
-    public static void main(String[] args) {
-        int array[] = { 56, 32, 95, 20 };
-        Bubble b = new Bubble();
-        int[] sortedArray = b.sort(array);
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(sortedArray[i] + " ");
-        }
-        System.out.println();
-    }
 }
