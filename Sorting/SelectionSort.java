@@ -1,21 +1,20 @@
 
-
 /**
  * 
  * N = A.LENGTH
  * FOR I = 0 TO N - 1
- *  MIN-INDEX = I
- *  
- *  FOR J=I+1 TO A.LENGTH
- *      IF (A[J] < A[MIN-INDEX])
- *          MIN-INDEX=J
- *      
- *      EXCHANGE A[MIN-INDEX], A[I]
+ * MIN-INDEX = I
+ * 
+ * FOR J=I+1 TO A.LENGTH
+ * IF (A[J] < A[MIN-INDEX])
+ * MIN-INDEX=J
+ * 
+ * EXCHANGE A[MIN-INDEX], A[I]
  * 
  */
 
 public class SelectionSort {
-    public int[] sort(int[] array) {
+    public void sort(int[] array) {
         int n = array.length;
 
         for (int i = 0; i < n - 1; i++) {
@@ -26,11 +25,8 @@ public class SelectionSort {
                     minIndex = j;
                 }
 
-                int temp = array[minIndex];
-                array[minIndex] = array[i];
-                array[i] = temp;
+                Const.swap(array, minIndex, i);
             }
         }
-        return array;
     }
 }
