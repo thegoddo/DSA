@@ -10,3 +10,9 @@
 - [x] Shell Sort
 - [x] Heap Sort
 - [x] Tree Sort
+
+## Searching
+- [ ] Sequential
+- [ ] Binary Search
+- [ ] Indexed Sequential Search
+- [ ] Interpolation Search
