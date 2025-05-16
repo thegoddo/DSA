@@ -1,17 +1,5 @@
 
-/**
- * 
- * N = A.LENGTH
- * FOR I = 0 TO N - 1
- * MIN-INDEX = I
- * 
- * FOR J=I+1 TO A.LENGTH
- * IF (A[J] < A[MIN-INDEX])
- * MIN-INDEX=J
- * 
- * EXCHANGE A[MIN-INDEX], A[I]
- * 
- */
+
 
 public class SelectionSort {
     public void sort(int[] array) {
