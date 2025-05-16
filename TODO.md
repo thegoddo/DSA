@@ -3,10 +3,10 @@
 ## Sorting
 
 - [x] Merge Sort
-- [ ] Quick Sort
-- [ ] Bubble Sort
-- [ ] Selection Sort
-- [ ] Insertion Sort
-- [ ] Shell Sort
-- [ ] Heap Sort
-- [ ] Tree Sort
+- [x] Quick Sort
+- [x] Bubble Sort
+- [x] Selection Sort
+- [x] Insertion Sort
+- [x] Shell Sort
+- [x] Heap Sort
+- [x] Tree Sort
