@@ -14,6 +14,6 @@
 ## Searching
 
 - [x] Sequential
-- [ ] Binary Search
+- [x] Binary Search
 - [ ] Indexed Sequential Search
 - [ ] Interpolation Search
