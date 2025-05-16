@@ -12,7 +12,8 @@
 - [x] Tree Sort
 
 ## Searching
-- [ ] Sequential
+
+- [x] Sequential
 - [ ] Binary Search
 - [ ] Indexed Sequential Search
 - [ ] Interpolation Search
