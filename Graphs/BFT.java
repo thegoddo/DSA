@@ -5,7 +5,7 @@ import java.util.Queue;
 
 import org.w3c.dom.Node;
 
-public class BFS {
+public class BFT {
 
     private class Node {
         public Node left;
