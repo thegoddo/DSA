@@ -19,6 +19,7 @@ public class LinkedHash<K, V> {
     private LinkedList<Node>[] buckets;
     private int capacity;
 
+    @SuppressWarnings("unchecked")
     public LinkedHash(int capacity) {
         this.capacity = capacity;
         this.buckets = new LinkedList[capacity];
